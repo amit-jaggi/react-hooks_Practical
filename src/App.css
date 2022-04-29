@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App h1 {
+  margin: 1% 0;
+}
+
+/* useState container css */
+.useState-container h2, .useEffect-container h2, .useContext-container h2, .useReducer-container h2 {
+  margin-top: 2%;
+  font-style: italic;
+}
+
+.useState-container hr, .useEffect-container hr, .useContext-container hr, .useReducer-container hr {
+  margin: 0 5%;
+}
+
+.updateName h1, .updateAge h1 {
+  margin: 1.5% 0;
+}
+
+.updateName .btn-box {
+  margin : 0 5%;
+  display: flex;
+  justify-content: space-evenly
+}
+
+.updateName button, .updateAge button, .useEffect-container button {
+  padding: .7% 2%;
+  cursor: pointer;
+}
+
+/* useEffect container css */
+
+.content {
+  margin: 1% 5%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.content-btn {
+  margin: 2% 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* useContext container css */
